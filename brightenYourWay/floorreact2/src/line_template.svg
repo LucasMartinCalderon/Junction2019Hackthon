@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920px" height="1080px">
+    <polyline points="20,20 40,25 60,40 80,120 120,140 200,180"
+              style="fill:none;stroke:blue;stroke-width:80; opacity:0.1" />
+    <polygon points="0,0 70,0 35,35" id="person_indicator" class="pulse" style="fill:rgb(200,40,40); opacity: 0.0" />
+</svg>

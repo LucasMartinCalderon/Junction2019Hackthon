@@ -1,0 +1,37 @@
+.expandable{
+    width: 100%;
+    height: 100%;
+    font-size: 40em;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.foreground {
+    z-index: 100;
+}
+
+@keyframes fadeout {
+    to {
+        visibility: visible;
+    }
+}
+
+.fadeout{
+    visibility: hidden;
+    animation: 0s linear 2.3s forwards delayedShow ;
+}
+
+@keyframes visin {
+    0% {
+        opacity: 1.0;
+        z-index: 100 !important;
+    }
+    100% {
+        opacity: 0.0;
+        z-index: -1 !important;
+    }
+}
+
+
